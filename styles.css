@@ -1,0 +1,36 @@
+.card {
+  border-radius: 1em;
+  height: 40em;
+}
+
+.card-title {
+  text-align: center;
+}
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.card-body {
+  position: relative;
+}
+
+.btn > .btm-primary {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
+
+.rounded-img {
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 0.6em;
+}
+
+.m-bottom {
+  margin-bottom: 1em;
+}
